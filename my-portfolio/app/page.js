@@ -1,0 +1,30 @@
+import Navbar from './components/Navbar';
+import HomeSection from './components/HomeSection'
+import Offerings from './components/Offering';
+import Expertise from './components/Expertise';
+import Certifications from './components/Certifications';
+import Approach from './components/Approach';
+import WhyWorkWithMe from './components/WhyWorkWithMe';
+import Contact from './components/Contact';
+import About from './components/About';
+import CoreSkills from './components/Skills';
+import Education from './components/Educations';
+import Projects from './components/Projects';
+export default function Home() {
+  return (
+  <>
+   <Navbar />
+  <HomeSection/>
+  <About/>
+  <CoreSkills/>
+  <Projects/>
+  <Education/>
+  <Offerings/>
+  <Expertise/>
+  <Certifications/>
+  <Approach/>
+  <WhyWorkWithMe/>
+  <Contact/>
+  </>
+  );
+}
