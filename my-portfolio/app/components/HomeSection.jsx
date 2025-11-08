@@ -9,32 +9,36 @@ export default function HomeSection() {
       id="home"
       className="py-48 text-center bg-gradient-to-r from-rose-500 via-red-500 to-pink-500 text-white overflow-hidden"
     >
-      {/* Heading animation */}
+      {/* Heading */}
       <motion.h1
-        initial={{ opacity: 0, y: -40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      className="text-4xl md:text-6xl font-bold text-black"
+        className="text-4xl md:text-6xl font-bold text-black"
+        initial={{ opacity: 0, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.6 }}
+        transition={{ duration: 0.8, delay:0.5, ease: 'easeOut' }}
       >
         Gaurav Sharma
       </motion.h1>
 
-      {/* Subtitle animation */}
+      {/* Subtitle */}
       <motion.p
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3, duration: 1 }}
         className="mt-4 text-lg md:text-xl text-white max-w-2xl mx-auto"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, amount: 0.6 }}
+        transition={{ delay: 0.2, duration: 0.8, ease: 'easeOut' }}
       >
-        Aspiring Data Analyst | Skilled in Python, SQL, Excel & Power BI | Passionate about turning raw data into actionable insights.
+        Data Analyst | Skilled in Python, SQL, Excel & Power BI |
+        Passionate about turning raw data into actionable insights.
       </motion.p>
 
-      {/* Buttons animation */}
+      {/* Buttons */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.9 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ delay: 0.6, duration: 0.8 }}
         className="mt-8 flex justify-center gap-4 flex-wrap"
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: false, amount: 0.5 }}
+        transition={{ delay: 0.4, duration: 0.8, ease: 'easeOut' }}
       >
         <motion.a
           href="mailto:gauravxv0410@gmail.com"
