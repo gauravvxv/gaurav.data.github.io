@@ -30,32 +30,32 @@ Each project includes its own README with details on the problem statement, appr
 - **Customer Shopping Behavior Analysis**  
   Analyzed 3,900+ transactions to uncover spending patterns, product preferences, and behavioral segments.  
   Tech: Python, Pandas, SQL, Power BI, Statistics, Gamma AI  
-  [View on GitHub](https://github.com/<your-username>/customer-shopping-behavior-analysis)  
+  [View on GitHub](https://github.com/<gauravvxv>/customer-shopping-behavior-analysis)  
 
 - **Zepto Inventory Analysis**  
   Analyzed inventory data to identify best-value products, category-wise revenue, discount trends, and price-efficiency patterns.  
   Tech: PostgreSQL, Data Cleaning, EDA, Power BI, DAX  
-  [View on GitHub](https://github.com/<your-username>/zepto-inventory-analysis)  
+  [View on GitHub](https://github.com/<gauravvxv>/zepto-inventory-analysis)  
 
 - **E-Shop Performance Dashboard**  
   Developed a Power BI dashboard backed by PostgreSQL to uncover insights into sales performance, customer behavior, and product profitability.  
   Tech: PostgreSQL, Data Cleaning, EDA, Data Visualization, Power BI  
-  [View on GitHub](https://github.com/<your-username>/e-shop-performance-dashboard)  
+  [View on GitHub](https://github.com/<gauravvxv>/e-shop-performance-dashboard)  
 
 - **Airbnb NYC 2019 Dashboard**  
   Built an Excel dashboard with pivot tables and charts to analyze Airbnb data — revealing pricing, availability, and guest-behavior insights across NYC neighborhoods.  
   Tech: Excel (Pivot Tables, Charts, Slicers), Data Cleaning, Descriptive Analysis, Data Visualization  
-  [View on GitHub](https://github.com/<your-username>/airbnb-nyc-2019-dashboard)  
+  [View on GitHub](https://github.com/<gauravvxv>/airbnb-nyc-2019-dashboard)  
 
 - **Sales Insight Dashboard**  
   Created a sales analysis dashboard to identify key performance trends, improved business insights, and enhanced strategic decisions.  
   Tech: Python, Pandas, SQLAlchemy, PostgreSQL, Power BI  
-  [View on GitHub](https://github.com/<your-username>/sales-insight-dashboard)  
+  [View on GitHub](https://github.com/<gauravvxv>/sales-insight-dashboard)  
 
 - **Netflix Users Data Analysis**  
   Explored and visualised Netflix user data to uncover insights into viewer behavior, subscription preferences, and content engagement trends.  
   Tech: Python, NumPy, Pandas, Matplotlib, Seaborn, Google Colab  
-  [View on GitHub](https://github.com/<your-username>/netflix-users-data-analysis)  
+  [View on GitHub](https://github.com/<gauravvxv>/netflix-users-data-analysis)  
 
 *(Feel free to reorder projects or remove/add any projects you prefer.)*
 
