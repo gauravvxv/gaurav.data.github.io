@@ -1,9 +1,6 @@
 import Navbar from './components/Navbar';
 import HomeSection from './components/HomeSection'
 import Offerings from './components/Offering';
-import Expertise from './components/Expertise';
-import Certifications from './components/Certifications';
-import Approach from './components/Approach';
 import WhyWorkWithMe from './components/WhyWorkWithMe';
 import Contact from './components/Contact';
 import About from './components/About';
@@ -20,9 +17,6 @@ export default function Home() {
   <Projects/>
   <Education/>
   <Offerings/>
-  <Expertise/>
-  <Certifications/>
-  <Approach/>
   <WhyWorkWithMe/>
   <Contact/>
   </>

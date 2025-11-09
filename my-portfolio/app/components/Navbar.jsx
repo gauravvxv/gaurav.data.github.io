@@ -11,7 +11,6 @@ export default function Navbar() {
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
     { name: "Education", href: "#education" },
-    { name: "Certifications", href: "#certifications" },
     { name: "Why Work With Me", href: "#whyworkwithme" },
     { name: "Contact", href: "#contact" },
   ];
@@ -43,14 +42,15 @@ export default function Navbar() {
 
         {/* Right: Resume Button */}
         <div className="hidden md:block">
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-8 py-3 bg-white text-rose-600 font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
-          >
-            Resume
-          </a>
+        <a
+  href="/Gaurav Sharma Resume.pdf"
+  download="Gaurav Sharma Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-3 bg-white text-rose-600 font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+>
+  Resume
+</a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -78,14 +78,15 @@ export default function Navbar() {
               </li>
             ))}
             <li>
-              <a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 py-2 bg-white text-rose-600 rounded-lg hover:bg-rose-50 transition"
-              >
-                Resume
-              </a>
+                   <a
+  href="/Gaurav Sharma Resume.pdf"
+  download="Gaurav Sharma Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-3 bg-white text-rose-600 font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+>
+  Resume
+</a>
             </li>
           </ul>
         </div>

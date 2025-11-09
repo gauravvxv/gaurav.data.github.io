@@ -15,7 +15,7 @@ export default function HomeSection() {
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.6 }}
-        transition={{ duration: 0.8, delay:0.5, ease: 'easeOut' }}
+        transition={{ duration: 0.8, delay: 0.5, ease: 'easeOut' }}
       >
         Gaurav Sharma
       </motion.h1>
@@ -40,8 +40,9 @@ export default function HomeSection() {
         viewport={{ once: false, amount: 0.5 }}
         transition={{ delay: 0.4, duration: 0.8, ease: 'easeOut' }}
       >
+        {/* Contact Me */}
         <motion.a
-          href="mailto:gauravxv0410@gmail.com"
+          href="#contact"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           className="px-8 py-3 bg-gradient-to-r from-white via-rose-100 to-pink-200 text-rose-700 font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
@@ -49,6 +50,7 @@ export default function HomeSection() {
           Contact Me
         </motion.a>
 
+        {/* GitHub */}
         <motion.a
           href="https://github.com/gauravvxv"
           target="_blank"
@@ -57,7 +59,20 @@ export default function HomeSection() {
           whileTap={{ scale: 0.95 }}
           className="px-8 py-3 bg-gradient-to-r from-white via-rose-100 to-pink-200 text-rose-700 font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
         >
-          Github
+          GitHub
+        </motion.a>
+
+        {/* Resume */}
+        <motion.a
+          href="/Gaurav Sharma Resume.pdf"
+          download="Gaurav Sharma Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          className="px-8 py-3 bg-white text-rose-600 font-semibold rounded-lg shadow-lg hover:bg-rose-50 hover:shadow-xl transition-all duration-300"
+        >
+          Resume
         </motion.a>
       </motion.div>
     </section>
