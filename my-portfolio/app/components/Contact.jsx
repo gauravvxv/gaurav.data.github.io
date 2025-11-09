@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaPaperPlane, FaGithub } from 'react-icons/fa'
+import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub, FaMedium } from 'react-icons/fa'
 
 export default function Contact() {
   return (
@@ -79,27 +79,29 @@ export default function Contact() {
         </div>
 
         {/* Buttons */}
-        <div className="mt-12 flex justify-center gap-5 flex-wrap">
-          {/* Send Message Button */}
+        <div className="mt-12 flex justify-center gap-6 flex-wrap">
+          {/* Follow on GitHub */}
           <motion.a
-            whileHover={{ scale: 1.05 }}
-            href="mailto:gauravxv0410@gmail.com"
+            whileHover={{ scale: 1.08 }}
+            href="https://github.com/gauravvxv"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center gap-2 px-8 py-3 bg-white text-rose-600 rounded-lg font-semibold shadow-lg hover:bg-rose-50 transition-all duration-300"
           >
-            <FaPaperPlane />
-            Send Message
+            <FaGithub className="text-lg" />
+            Follow on GitHub
           </motion.a>
 
-          {/* Follow on GitHub Button */}
+          {/* Follow on Medium */}
           <motion.a
-            whileHover={{ scale: 1.05 }}
-            href="https://github.com/gauravvxv"
+            whileHover={{ scale: 1.08 }}
+            href="https://medium.com/@gauravxv0410"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 px-8 py-3 border border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-all duration-300"
           >
-            <FaGithub className="text-lg" />
-            Follow on GitHub
+            <FaMedium className="text-lg" />
+            Follow on Medium
           </motion.a>
         </div>
       </div>
