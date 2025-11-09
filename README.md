@@ -79,7 +79,4 @@ Each project includes its own README with details on the problem statement, appr
 
 ---
 
-## How to Run Locally  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+
